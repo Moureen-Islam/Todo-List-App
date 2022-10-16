@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Gentium+Book+Basic&family=Poppins:wght@300&family=Ubuntu:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Gentium Book Basic", sans-serif;
+    
+}
+h1{
+    color:  #0083B0;
+    font-family: "Gentium Book Basic", sans-serif;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    padding: 0;
+    justify-content: center;
+}
+
+
+.main-input{
+    font-family: "Gentium Book Basic", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+   
+
+}
+
+.btn{
+    
+    margin: 2px;
+    color: #0083B0;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-color: white;
+    border-style: none;
+    padding: 7px;
+    
+    
+}
+
+.btn:hover{
+    color: white;
+    background-color: #0083B0;
+}
+
+.todo-input{
+    border-color: #0083B0;
+    padding: 5px;
+    align-items: center;
+    color: #0083B0;
+
+}
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+    min-width: 30%;
+    list-style: none;
+}
+.todo{
+    margin: 0.5rem;
+    background: rgb(251, 250, 250);
+    color: #0083B0;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.complete-btn, .delete-btn{
+    
+    margin: 10px;
+    padding: 5px;
+    
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: #0083B0;
+    cursor: pointer;
+
+}
+.delete-btn:hover{
+    color: #0083B0;
+    background: white;
+    
+}
+.complete-btn:hover{
+    color: #0083B0;
+    background: white;
+
+}
+
+.todo li{
+    flex: 1;
+}
+.fa-trash, .fa-check{
+    pointer-events: none;
+}
+    
